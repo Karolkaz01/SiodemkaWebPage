@@ -1,53 +1,53 @@
-import './styles.css';
-import logo from './images/logoSiodemka.png';
+import "./styles.css";
+import logo from "./images/logoSiodemka.png";
 
 const highlights = [
   {
-    title: 'Profesjonalna jakość druku, która robi wrażenie',
-    body: 'Zamów materiały, które wyróżnią Twoją firmę. Od wizytówek po wielkoformatowe banery — drukujemy z pasją i precyzją.',
+    title: "Profesjonalna jakość druku, która robi wrażenie",
+    body: "Zamów materiały, które wyróżnią Twoją firmę. Od wizytówek po wielkoformatowe banery – drukujemy z pasją i precyzją.",
   },
   {
-    title: 'Druk, który trafia w sedno',
-    body: 'Niech Twoje projekty przemówią głośno i wyraźnie. Oferujemy ekspresowy druk, atrakcyjne ceny i doradztwo na każdym etapie.',
+    title: "Druk, który trafia w sedno",
+    body: "Niech Twoje projekty przemówią głośno i wyraźnie. Oferujemy ekspresowy druk, atrakcyjne ceny i doradztwo na każdym etapie.",
   },
   {
-    title: 'Kolory, które żyją — jakość, która trwa',
-    body: 'Nasze technologie druku zapewniają intensywne barwy i trwałość na lata. Sprawdź ofertę i przekonaj się sam!',
+    title: "Kolory, które żyją – jakość, która trwa",
+    body: "Nasze technologie druku zapewniają intensywne barwy i trwałość na lata. Sprawdź ofertę i przekonaj się sam!",
   },
   {
-    title: 'Druk ekspresowy — gotowe nawet w 24h!',
-    body: 'Potrzebujesz materiałów na już? Zrealizujemy Twoje zamówienie błyskawicznie, bez kompromisów w jakości.',
+    title: "Druk ekspresowy – gotowe nawet w 24h!",
+    body: "Potrzebujesz materiałów na już? Zrealizujemy Twoje zamówienie błyskawicznie, bez kompromisów w jakości.",
   },
 ];
 
 const services = [
-  'Banery i wydruki wielkoformatowe',
-  'Oklejanie witryn i samochodów',
-  'Wizytówki, ulotki, katalogi',
-  'Proste projekty graficzne do druku',
-  'Doradztwo materiałowe i kolorystyczne',
+  "Banery i wydruki wielkoformatowe",
+  "Oklejanie witryn i samochodów",
+  "Wizytówki, ulotki, katalogi",
+  "Proste projekty graficzne do druku",
+  "Doradztwo materiałowe i kolorystyczne",
 ];
 
 const contacts = [
   {
-    label: 'Telefon',
-    href: 'tel:+48123456789',
-    detail: '+48 123 456 789',
+    label: "Telefon",
+    href: "tel:+48783609661",
+    detail: "+48 783 609 661",
   },
   {
-    label: 'E-mail',
-    href: 'mailto:kontakt@siodemka.pl',
-    detail: 'kontakt@siodemka.pl',
+    label: "E-mail",
+    href: "mailto:biuro@siodemka-reklamy.pl",
+    detail: "biuro@siodemka-reklamy.pl",
   },
   {
-    label: 'Facebook',
-    href: 'https://facebook.com/siodemka',
-    detail: 'Aktualności i szybki czat',
+    label: "Facebook",
+    href: "https://www.facebook.com/profile.php?id=61583830106500",
+    detail: "Aktualności i szybki czat",
   },
   {
-    label: 'Adres',
-    href: 'https://maps.google.com/?q=ul.+Reklamowa+7,+Lodz',
-    detail: 'ul. Reklamowa 7, Łódź',
+    label: "Adres",
+    href: "https://maps.google.com/?q=Zawiercie+ul.+Górnośląska+37",
+    detail: "Zawiercie, ul. Górnośląska 37",
   },
 ];
 
@@ -59,7 +59,7 @@ function App() {
           <img src={logo} alt="Logo Siódemka s.c." />
           <div className="brand__meta">
             <span className="brand__eyebrow">Siódemka s.c.</span>
-            <span className="brand__title">Druk | Reklama | Oklejanie</span>
+            <span className="brand__title">Druk | Reklama | Projektowanie</span>
           </div>
         </div>
         <nav className="nav">
@@ -67,7 +67,7 @@ function App() {
           <a href="#oferta">Oferta</a>
           <a href="#kontakt">Kontakt</a>
         </nav>
-        <a className="nav__cta" href="tel:+48123456789">
+        <a className="nav__cta" href="tel:+48783609661">
           Zamów druk
         </a>
       </header>
@@ -78,18 +78,21 @@ function App() {
             <p className="eyebrow">Profesjonalna jakość druku</p>
             <h1>Siódemka s.c.</h1>
             <p className="lede">
-              Zamów materiały, które wyróżnią Twoją firmę. Od wizytówek po wielkoformatowe banery —
-              drukujemy z pasją i precyzją.
+              Zamów materiały, które wyróżnią Twoją firmę. Od wizytówek po
+              wielkoformatowe banery – drukujemy z pasją i precyzją.
             </p>
             <p className="lede">
-              Twoja wizja, nasz druk. Kreatywne podejście, indywidualne projekty i pełne wsparcie od
-              A do Z.
+              Twoja wizja, nasz druk. Kreatywne podejście, indywidualne projekty
+              i pełne wsparcie od A do Z.
             </p>
             <div className="actions">
-              <a className="btn" href="tel:+48123456789">
+              <a className="btn" href="tel:+48783609661">
                 Zadzwoń teraz
               </a>
-              <a className="btn btn--ghost" href="mailto:kontakt@siodemka.pl">
+              <a
+                className="btn btn--ghost"
+                href="mailto:biuro@siodemka-reklamy.pl"
+              >
                 Napisz do nas
               </a>
               <a className="btn btn--ghost" href="#oferta">
@@ -104,32 +107,8 @@ function App() {
               ))}
             </div>
           </div>
-          <div className="panel hero__side">
-            <div className="hero__badge">Druk ekspresowy — gotowe nawet w 24h!</div>
-            <p className="hero__note">
-              Druk, który trafia w sedno. Niech Twoje projekty przemówią głośno i wyraźnie — my
-              zadbamy o resztę.
-            </p>
-            <div className="hero__cta-block">
-              <span className="cta-label">Zapytaj o wycenę</span>
-              <a href="mailto:kontakt@siodemka.pl" className="btn btn--ghost">
-                kontakt@siodemka.pl
-              </a>
-            </div>
-            <div className="stat-grid">
-              <div className="stat">
-                <span className="stat__value">24h</span>
-                <span className="stat__label">Tryb ekspres</span>
-              </div>
-              <div className="stat">
-                <span className="stat__value">100%</span>
-                <span className="stat__label">Kontrola jakości</span>
-              </div>
-              <div className="stat">
-                <span className="stat__value">360°</span>
-                <span className="stat__label">Wsparcie w projekcie</span>
-              </div>
-            </div>
+          <div className="hero__badge hero__badge--solo">
+            Pierwszy projekt Gratis
           </div>
         </section>
 
@@ -138,8 +117,8 @@ function App() {
             <p className="eyebrow">Oferta</p>
             <h2>Druk, który mówi za Ciebie</h2>
             <p className="lede">
-              Oferujemy ekspresowy druk, atrakcyjne ceny i doradztwo na każdym etapie. Wybierz pakiet
-              idealny dla Twojej marki.
+              Oferujemy ekspresowy druk, atrakcyjne ceny i doradztwo na każdym
+              etapie. Wybierz pakiet idealny dla Twojej marki.
             </p>
           </div>
           <div className="card-grid">
@@ -157,8 +136,8 @@ function App() {
             <p className="eyebrow">Kontakt</p>
             <h2>Bądźmy w kontakcie</h2>
             <p className="lede">
-              Kolory, które żyją — jakość, która trwa. Napisz, zadzwoń lub zajrzyj do nas, a my
-              przygotujemy druk, który robi wrażenie.
+              Kolory, które żyją – jakość, która trwa. Napisz, zadzwoń lub
+              zajrzyj do nas, a my przygotujemy druk, który robi wrażenie.
             </p>
           </div>
           <div className="contact__grid">
@@ -167,8 +146,8 @@ function App() {
                 key={item.label}
                 className="contact__item"
                 href={item.href}
-                target={item.label === 'Facebook' ? '_blank' : undefined}
-                rel={item.label === 'Facebook' ? 'noreferrer' : undefined}
+                target={item.label === "Facebook" ? "_blank" : undefined}
+                rel={item.label === "Facebook" ? "noreferrer" : undefined}
               >
                 <span className="contact__label">{item.label}</span>
                 <span className="contact__detail">{item.detail}</span>
@@ -178,14 +157,20 @@ function App() {
           <div className="contact__cta">
             <div>
               <span className="contact__tag">Działa 24/7</span>
-              <strong>Druk ekspresowy — gotowe nawet w 24h!</strong>
-              <p>Masz pomysł? My go wydrukujemy. Pomożemy dobrać format, papier i wykończenie.</p>
+              <strong>Pierwszy projekt Gratis – sprawdź nas bez ryzyka</strong>
+              <p>
+                Masz pomysł? My go wydrukujemy. Pomożemy dobrać format, papier i
+                wykończenie, a pierwszy projekt przygotujemy gratis.
+              </p>
             </div>
             <div className="contact__actions">
-              <a className="btn" href="tel:+48123456789">
+              <a className="btn" href="tel:+48783609661">
                 Zadzwoń
               </a>
-              <a className="btn btn--ghost" href="mailto:kontakt@siodemka.pl">
+              <a
+                className="btn btn--ghost"
+                href="mailto:biuro@siodemka-reklamy.pl"
+              >
                 Wyślij zapytanie
               </a>
             </div>
